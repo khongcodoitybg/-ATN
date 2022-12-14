@@ -1,0 +1,14 @@
+.info {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.firstName {
+    flex: 1;
+}
+
+.lastName {
+
+    flex       : 1;
+    margin-left: 20px;
+}

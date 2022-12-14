@@ -1,0 +1,22 @@
+#scrollButton {
+    position: fixed;
+    bottom  : 50px;
+    right   : 80px;
+    display : none;
+
+    justify-content: center;
+    align-items    : center;
+    width          : 70px;
+    height         : 70px;
+    font-size      : 3rem;
+    color          : green;
+    z-index        : 1;
+    background     : none;
+    outline        : none;
+    border         : none;
+    border-radius  : 50%;
+}
+
+#scrollButton.scrollVisible {
+    display: flex;
+}

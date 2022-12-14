@@ -1,0 +1,25 @@
+.pie {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.createButton {
+    position        : fixed;
+    top             : 100px;
+    z-index         : 1;
+    right           : 46px;
+    background-color: rgba(255, 223, 91, 0.6);
+    color           : #000;
+    margin-left     : 10px;
+
+    &:hover {
+        background-color: rgba(255, 223, 91, 0.9);
+    }
+}
+
+.navForum {
+    display        : flex;
+    justify-content: space-between;
+
+}
